@@ -1,0 +1,31 @@
+@media (max-width: 500px){
+    .logotype>img{
+        width: 60px;
+    }
+
+    .text>p{
+        font-size: 4vh; 
+    }
+
+    .emailInput{
+        flex-direction: column;
+        gap: 10px;  
+    }
+
+    #buttonNotify{
+        width: 40vh;
+    }
+
+    .dashboard>img{
+        width: 50vh;
+        height: 25vh;
+    }
+
+}
+
+@media (max-width: 435px){
+    .dashboard>img{
+        width: 40vh;
+        height: 25vh;
+    }
+}
